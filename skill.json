@@ -1,0 +1,10 @@
+{
+  "name": "genpark-cross-platform-allocator",
+  "version": "1.0.0",
+  "description": "GenPark Cross-Platform Allocator - Markowitz modern portfolio ad budget optimizer, diminishing marginal ROAS Hill saturation modeler, and cross-channel spend rebalancing engine with zero dependencies.",
+  "tools": [
+    "optimize_markowitz_ad_budget",
+    "calculate_diminishing_marginal_roas_curve",
+    "rebalance_cross_platform_discrepancy"
+  ]
+}
