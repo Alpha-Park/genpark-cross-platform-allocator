@@ -52,9 +52,7 @@ def rebalance_cross_platform_discrepancy(
     return json.dumps(res, indent=2)
 
 def main():
-    print("Testing Cross-Platform Allocator:")
-    ch = [{"name": "Meta Ads", "expected_roas": 3.8, "roas_volatility_std": 0.4}, {"name": "Google Ads", "expected_roas": 4.2, "roas_volatility_std": 0.6}]
-    print(optimize_markowitz_ad_budget(json.dumps(ch), 10000.0))
+    mcp.run(transport="stdio")
 
 if __name__ == "__main__":
     main()
